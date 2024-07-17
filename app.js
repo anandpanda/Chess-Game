@@ -14,7 +14,6 @@ let players = {};
 let currentPlayer = "w";
 
 app.set("view engine", "ejs");
-app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
@@ -66,8 +65,8 @@ io.on("connection", function (uniqueSocket) {
 	});
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
-server.listen(PORT || 3000, () => {
+server.listen(PORT, () => {
 	console.log(`Server is running on port ${PORT}`);
 });
