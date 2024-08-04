@@ -6,6 +6,9 @@ This is a simple live chess game where two players can play against each other w
 
 ## Preview :
 
+### Demo -
+https://github.com/user-attachments/assets/73502a43-e711-41bf-9332-d95a9f2d6271
+
 ### Player 1 -
 ![Player 1](https://github.com/user-attachments/assets/5cb37690-b535-4acb-ae95-63deb50d1861)
 
